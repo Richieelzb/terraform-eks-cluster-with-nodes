@@ -1,4 +1,4 @@
-/*module "ec2_bastion" {
+module "ec2_bastion" {
   source  = "terraform-aws-modules/ec2-instance/aws"
   version = "5.7.1"
 
@@ -12,4 +12,4 @@
 
   tags = local.common_tags
 
-}*/
+}

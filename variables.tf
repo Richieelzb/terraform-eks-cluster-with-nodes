@@ -17,7 +17,7 @@ variable "instance-type-map" {
 }
 
 variable "key-pair" {
-  default = "lupfumo-key"
+  default = "lupfumo-key-mumbai"
 }
 
 ///VPC Modules ///////////////////////////////////////////////////////////////////////////
@@ -107,7 +107,7 @@ variable "cluster_service_ipv4_cidr" {
 }
 //////generic/////////////////////////////
 variable "aws-region" {
-  default = "eu-west-1"
+  default = "ap-south-1"
 }
 
 variable "environment" {
