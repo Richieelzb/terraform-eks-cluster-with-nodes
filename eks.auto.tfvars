@@ -1,5 +1,5 @@
 eks-cluster                          = "eks-cluster"
-eks-cluster-Version                  = "1.32"
+eks-cluster-Version                  = "1.30"
 cluster_endpoint_private_access      = false
 cluster_endpoint_public_access       = true
 cluster_endpoint_public_access_cidrs = ["0.0.0.0/0"]
