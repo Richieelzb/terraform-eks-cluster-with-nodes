@@ -10,7 +10,7 @@ terraform {
     bucket       = "terraform-bucket-lzb-001"
     key          = "kubernetes/terraform.tfstate"
     region       = "ap-south-1"
-    use_lockfile = true
+    #use_lockfile = true
   }
 }
 
