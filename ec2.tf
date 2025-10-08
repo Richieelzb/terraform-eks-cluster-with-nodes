@@ -1,4 +1,4 @@
-/*resource "aws_instance" "ec2-vm-public" {
+resource "aws_instance" "ec2-vm-public" {
   ami = data.aws_ami.my-data-ami.id
   # instance_type = var.instance-type
   instance_type = var.instance-type-list[0]
@@ -13,4 +13,4 @@
   tags = {
     Name = "bastion-ec2"
   }
-}*/
+}
