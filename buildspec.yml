@@ -16,6 +16,6 @@ phases:
   build:
     commands:
      
-      # - terraform plan -lock=false -out=tfplan
+      #- terraform plan -lock=false -out=tfplan
       #- terraform apply -lock=false -auto-approve
       - terraform destroy -lock=false -auto-approve
