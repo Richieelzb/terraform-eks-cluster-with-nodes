@@ -10,12 +10,12 @@ terraform {
     bucket       = "terraform-bucket-lzb-001"
     key          = "kubernetes/terraform.tfstate"
     region       = "ap-south-1"
-    profile      = "default"
+    //profile      = "default"
     #use_lockfile = true
   }
 }
 
 provider "aws" {
-  profile = "default"
+  //profile = "default"
   region = var.aws-region
 }
