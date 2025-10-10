@@ -9,6 +9,8 @@ sudo ./aws/install
 #chmod 700 get_helm.sh
 #./get_helm.sh
 
+#curl -O https://s3.us-west-2.amazonaws.com/amazon-eks/1.34.1/2025-09-19/bin/linux/amd64/kubectl
+
 sudo curl -LO "https://storage.googleapis.com/kubernetes-release/release/$(curl -s https://storage.googleapis.com/kubernetes-release/release/stable.txt)/bin/linux/amd64/kubectl"
 sudo chmod +x ./kubectl
 sudo mv ./kubectl /usr/local/bin/kubectl
