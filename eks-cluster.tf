@@ -3,9 +3,9 @@ resource "aws_eks_cluster" "eks-cluster" {
   role_arn = aws_iam_role.eks_master_role.arn
   version  = var.eks-cluster-Version
 
-  /*access_config {
+  access_config {
     authentication_mode = "API"
-  }*/
+  }
 
 
   vpc_config {
