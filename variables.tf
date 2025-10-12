@@ -31,10 +31,10 @@ variable "vpc_cidr_block" {
   default = "20.0.0.0/16"
 }
 
-/*variable "vpc_availability_zones" {
+variable "vpc_availability_zones" {
   type    = list(string)
   default = ["eu-west-1a", "eu-west-1b"]
-}*/
+}
 
 variable "vpc_public_subnets" {
   type    = list(string)
