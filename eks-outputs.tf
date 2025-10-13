@@ -43,7 +43,7 @@ output "cluster_primary_security_group_id" {
   description = "The cluster primary security group ID created by the EKS cluster on 1.14 or later. Referred to as 'Cluster security group' in the EKS console."
   value       = aws_eks_cluster.eks-cluster.vpc_config[0].cluster_security_group_id
 }
-
+/*
 # EKS Node Group Outputs - Public
 output "node_group_public_id" {
   description = "Public Node Group ID"
@@ -54,3 +54,4 @@ output "node_group_public_arn" {
   description = "Public Node Group ARN"
   value       = aws_eks_node_group.eks_ng_public.arn
 }
+*/
