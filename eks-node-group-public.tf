@@ -1,5 +1,5 @@
 # Create AWS EKS Node Group - Public
-/*resource "aws_eks_node_group" "eks_ng_public" {
+resource "aws_eks_node_group" "eks_ng_public" {
   cluster_name = aws_eks_cluster.eks-cluster.name
 
   node_group_name = "${local.Name}-eks-ng-public"
@@ -41,5 +41,3 @@
     Name = "Public-Node-Group"
   }
 }
-
-*/
