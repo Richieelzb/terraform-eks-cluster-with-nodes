@@ -1,2 +1,2 @@
-instance_type = "t3.small"
-key_name  = "lupfumo-key-mumbai"
+instance-type = "t3.small"
+key-pair  = "lupfumo-key-mumbai"
