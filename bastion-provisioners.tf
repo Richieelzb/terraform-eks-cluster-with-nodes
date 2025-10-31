@@ -9,7 +9,7 @@ resource "null_resource" "ec2-copy-keys" {
    }
 
    provisioner "file" {
-    source = "private-keys/lupfumo-key.mumbai.pem"
+    source = "private-keys/lupfumo-key-mumbai.pem"
     destination = "/tmp/lupfumo-key-mumbai.key.pem"
    }
 
